@@ -96,32 +96,15 @@
                             [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.poster.pdf" target="_blank">poster</a>]
                             [<a href="https://quoref-dataset.s3-us-west-2.amazonaws.com/train_and_dev/quoref-train-dev-v0.1.zip" target="_blank">dataset</a>]
                             [<a href="https://leaderboard.allenai.org/quoref" target="_blank">leaderboard</a>] -->
-                            <div id="dasigi_liu_marasovic_smith_gardner_emnlp2019_abstract" class="abstract" style="display:none;">
+                            <div id="FL_abstract" class="abstract" style="display:none;">
                                 <p>
-                                    Machine comprehension of texts longer than a
-                                    single sentence often requires coreference
-                                    resolution. However, most current reading
-                                    comprehension benchmarks do not contain
-                                    complex coreferential phenomena and hence
-                                    fail to evaluate the ability of models to
-                                    resolve coreference. We present a new
-                                    crowdsourced dataset containing more than
-                                    24K span-selection questions that require
-                                    resolving coreference among entities in
-                                    over 4.7K English paragraphs from Wikipedia.
-                                    Obtaining questions focused on such
-                                    phenomena is challenging, because it is hard
-                                    to avoid lexical cues that shortcut
-                                    complex reasoning. We deal with this issue
-                                    by using a strong baseline model as an
-                                    adversary in the crowdsourcing loop, which
-                                    helps crowdworkers avoid writing questions
-                                    with exploitable surface cues. We show that
-                                    state-of-the-art reading comprehension
-                                    models perform significantly worse than
-                                    humans on this benchmark—the best model
-                                    performance is 70.5 F1, while the estimated
-                                    human performance is 93.4 F1.
+                                    Federated learning (FL) is a machine learning paradigm in which many users collaboratively train a model under the supervision of a central server (CS). Because the
+				    model performance is highly dependent on user quality, user selection becomes a critical issue in FL. In this paper, we develop a system model where the CS aims to select users with high
+				    computational power and valuation of the global model. In this regard, we propose an incentive mechanism to motivate users to reveal their computational power and model valuation.
+				    Then, we formulate a cost-minimization optimization problem of the CS and propose a polynomial-time dynamic programming algorithm to solve it. The proposed scheme effectively avoids the
+				    free-rider problem in which a user with little contribution can obtain the model by joining the FL process. Moreover, utilizing auction theory, our mechanism incentivizes users to report their
+				    computational power and model valuation truthfully. Finally, extensive theoretical analysis and numerical simulation validate the superiority of the proposed mechanism compared with two
+				    state-of-the-art user selection mechanisms.
                                 </p>
                             </div>
                         </li>
